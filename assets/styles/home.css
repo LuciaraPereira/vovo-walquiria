@@ -1,0 +1,98 @@
+.imagem-principal{
+    width: 100%; 
+    height: 550px;  
+    display: block; 
+    object-fit: cover;
+    opacity: 0.5;
+  
+  }
+  
+  .texto-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .texto {
+    text-align: justify;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+  }
+  
+  h2{
+      text-align: center;
+      font-style: italic;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 26px;
+  }
+  
+  .centro {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  .video {
+    width: 800px;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #114B0B;
+    height: 400px;
+    display: block;
+  }
+  
+  
+  button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.7);
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+  }
+  
+  .prev {
+      left: 10px;
+  }
+  
+  .next {
+      right: 10px;
+  }
+  
+ 
+  
+  
+  /* <--- Respons. ---> */
+  
+  @media(max-width: 960px){
+    .navbar {
+      flex-direction: column;
+      align-items: start;
+      padding: 20px;
+    }
+  
+    .logo {
+      margin-left: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  }
+  
+  @media(orientation: landscape) {
+  
+  }

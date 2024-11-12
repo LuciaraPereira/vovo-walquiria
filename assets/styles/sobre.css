@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.historia h1{
+    text-align: center;
+    margin: 25px 0px;
+    color: #114B0B;
+    font-size: 30px;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.historia p{
+    text-align: center;
+    width: 50%;
+    padding: 15px;
+    color: #114B0B;
+}
+
+.historia img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.equipe p, h3{
+    text-align: center;
+    color: #114B0B;
+    
+}
+
+.equipe p{
+    font-size: 15px;
+}
+
+.equipe h3{
+   padding: 8px;
+}
+
+
+.titulo-e {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: #114B0B;
+    font-size: 30px;
+}
+
+
+ /* cards */
+ .container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+.cards {
+    width: 260px;
+    background-color: #78AA87;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(56, 56, 56, 0.2);
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.cards:hover{
+    background-color: #4ea066;
+    margin-top: -25px;
+    box-shadow: 2px 20px 25px #5d5e5d ;
+}
+
+
+.cards h2 {
+    font-size: 23px;
+    color: #000;
+    margin: 7px 0px;
+}
+
+
+.cards img {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    color: #ffd;
+}
+
+
+.cards p {
+    margin: 10px 5px;
+    color: #000;
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  
+    .equipe p{
+        font-size: 10px;
+    }
+    
+    .equipe h2{
+       padding: 6px;
+    }
+    
+   
+}
+
+
+

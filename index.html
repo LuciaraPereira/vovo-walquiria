@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/nav.css">
+    <link rel="stylesheet" href="assets/styles/home.css">
+    <link rel="icon" href="assets/image/logovovo.webp">
+    <title>Vovó Walquíria</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"> <a href="index.html"><img src="assets/image/logovovo.webp" alt="Logotipo Lar de Amparo Vovó Walquíria"></a> </div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li> <a href="index.html" class="active"> Ínicio </a> </li>
+            <li> <a href="sobre.html"> Sobre</a> </li>
+            <li> <a href="contato.html"> Contato</a> </li>
+            <li> <a href="visitas.html"> Visitas</a> </li>
+            <li> <a href="ajuda.html" class="btn-ajudar"> Como Ajudar</a> </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <img src="assets/image/fundo.png" alt="" class="imagem-principal">
+
+       <!--
+        <div class="principal">
+            <h1>Lar de Amparo ao idoso<br>Vovó Walquira</h1>
+          </div>
+       --> 
+
+
+          <div class="main">
+            <div class="texto-div">
+              <p class="texto">
+                Somos um lar para idosos com mais de X anos de experiência, especializado em proporcionar um cuidado de qualidade que se baseia no carinho, na atenção individualizada e na valorização da história de vida de cada residente. Nosso principal objetivo é criar um ambiente acolhedor e seguro, onde cada idoso se sinta verdadeiramente parte de uma grande família, recebendo o respeito e a consideração que merece.
+                <br><br>
+                Contamos com uma equipe dedicada e apaixonada, que se empenha diariamente para garantir que nossos residentes tenham todo o suporte necessário para viver com dignidade e conforto. Promovemos atividades que incentivam a socialização e o bem-estar, assegurando que todos se sintam incluídos e respeitados. Estamos comprometidos em atender às necessidades de cada um, proporcionando momentos de alegria e convivência, sempre com empatia e carinho.
+                <br><br>
+                Acreditamos que a terceira idade é uma fase rica em experiências e sabedoria, e nossa missão é valorizar cada instante. Aqui, trabalhamos para que cada residente sinta-se amado, respeitado e, acima de tudo, em casa.
+              </p>
+            </div>
+            <h2>Conheça um pouco mais sobre nós</h2>
+            <div class="centro">
+                <iframe src="https://www.youtube.com/embed/V2uuth2aXqs?si=pvR65_R_77HqKGIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            </div>
+            <h2>Fotos do Lar</h2>
+            
+            <div class="carousel">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <img id="carouselImage" src="assets/image/carrossel/vovo1.jpg" alt="Imagem do Carrossel">
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+          </div>
+       
+    </main>
+
+    <footer>
+        <img src="assets/image/logovovo.webp" alt="Logo do Lar de Amparo Vovó Walquíria" class="logo">
+        <div>
+          <p>Casa de Amparo Vovó Walquiria<br>
+              Av. Jõao Franscisco Bensdorp n°  1555 - Cidade Náutica, São Vicente<br>
+              CEP:  11350-011
+          </p>
+        </div>
+        <div class="icones">
+          <span>Redes sociais:</span>
+          <div>
+            <a href=""><img src="assets/image/facebook.png" ></a>
+            <a href=""><img src="assets/image/whatsapp.png" ></a>
+            <a href=""><img src="assets/image/youtube.png" ></a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/carrosel.js"></script>
+</body>
+</html>

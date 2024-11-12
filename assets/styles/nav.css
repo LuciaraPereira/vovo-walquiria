@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #78AA87;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    z-index: 1000;
+
+
+    position: sticky;
+    top: 0; /* A navbar ficará fixa no topo quando rolar para baixo */
+   
+}
+
+.btn-ajudar{
+    border-radius: 18px;
+    background-color: #50a76a;
+    transition: 0.2s;
+
+}
+
+.btn-ajudar:hover{
+    border-radius: 18px;
+    background-color: #78AA87;
+
+}
+
+nav img{
+    max-width: 75px;
+    height: auto;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+a:hover, 
+a:active{
+    color: #114B0B;
+}
+
+
+/* <--- Footer ---> */
+  
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C3838;
+    padding: 40px;
+    margin-top: 100px;
+  
+  }
+  
+  footer p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  footer img{
+    max-width: 100px;
+  }
+  
+  .icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icones span {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .icones img {
+    margin: 0px 5px;
+    width: 25px;
+    height: 25px;
+  }
+
+
+
+
+@media (max-width: 920px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #78AA87;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: 0.3s;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 23px;
+    }
+
+    nav img{
+        max-width: 65px;
+        height: auto;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3C3838;
+        padding: 40px;
+        margin-top: 100px;
+      
+      }
+    
+}
+
+
+
+ 
+  
+ 
