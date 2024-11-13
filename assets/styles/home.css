@@ -1,10 +1,7 @@
 .imagem-principal{
-    width: 100%; 
-    height: 550px;  
+    width: 100%;  
     display: block; 
     object-fit: cover;
-    opacity: 0.5;
-  
   }
   
   .texto-div {
@@ -18,6 +15,7 @@
     font-size: 20px;
     width: 70%;
     text-align: center;
+    color: #114B0B;
   }
   
   h2{
@@ -26,6 +24,7 @@
       margin-top: 50px;
       margin-bottom: 20px;
       font-size: 26px;
+      color: #114B0B;
   }
   
   .centro {
@@ -91,6 +90,53 @@
     .nav-links {
       flex-direction: column;
     }
+  }
+
+  @media(max-width: 600px){
+    .centro {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+    }
+    
+    .video {
+      width: 300px;
+    }
+
+    .carousel {
+      position: relative;
+      max-width: 400px;
+      margin: auto;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .carousel img {
+      width: 50%;
+      border-radius: 10px;
+      border: 4px solid #114B0B;
+      height: 200px;
+      display: block;
+    }
+    
+    h2{
+      text-align: center;
+      font-style: italic;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #114B0B;
+  }
+
+  .texto {
+    text-align: justify;
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
+  }
+
   }
   
   @media(orientation: landscape) {
