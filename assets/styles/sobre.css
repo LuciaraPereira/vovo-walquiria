@@ -20,7 +20,8 @@
 }
 
 .historia p{
-    text-align: center;
+    text-align: left;
+    line-height: 1.2rem;
     width: 50%;
     padding: 15px;
     color: #114B0B;

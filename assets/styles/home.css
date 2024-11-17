@@ -7,15 +7,16 @@
   .texto-div {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 60px;
   }
   
   .texto {
     text-align: justify;
     font-size: 20px;
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #114B0B;
+    line-height: 1.6rem;
   }
   
   h2{
