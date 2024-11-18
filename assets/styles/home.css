@@ -14,7 +14,7 @@
     font-size: 20px;
     width: 70%;
     text-align: justify;
-    margin-left: 20px;
+ 
     color: #114B0B;
     line-height: 1.7rem;
   }
@@ -133,7 +133,7 @@
 
   .texto {
     font-size: 14px;
-    width: 50%;
+    width: 80%;
     text-align: justify;
   }
 
