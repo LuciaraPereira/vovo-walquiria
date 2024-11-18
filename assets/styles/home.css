@@ -11,10 +11,10 @@
   }
   
   .texto {
-    text-align: justify;
     font-size: 20px;
     width: 70%;
     text-align: left;
+    margin-left: 20px;
     color: #114B0B;
     line-height: 1.6rem;
   }
@@ -132,10 +132,9 @@
   }
 
   .texto {
-    text-align: justify;
     font-size: 14px;
     width: 70%;
-    text-align: left;
+    text-align: justify;
   }
 
   }
