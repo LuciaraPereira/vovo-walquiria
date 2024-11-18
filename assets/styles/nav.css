@@ -19,7 +19,7 @@ nav{
     flex-wrap: wrap;
     z-index: 1000;
     position: sticky;
-    top: 0; /* A navbar ficará fixa no topo quando rolar para baixo */
+    top: 0; 
    
 }
 
@@ -78,7 +78,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3C3838;
+    background-color: #252424;
     padding: 40px;
     margin-top: 100px;
   
@@ -114,7 +114,15 @@ footer{
     height: 25px;
   }
 
-
+  .rodape-direitos{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+  }
 
 
 @media (max-width: 920px) {
@@ -158,6 +166,30 @@ footer{
         margin-top: 100px;
       
       }
+
+      
+  footer p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  footer img{
+    max-width: 80px;
+    margin-left: -10px;
+  }
+
+  .rodape-direitos{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
     
 }
 
